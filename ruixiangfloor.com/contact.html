@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-TW">
+<html lang="en">
 <head>
 <title>聯絡我們｜免費施工評估、工程規劃與報價｜瑞祥工程行 - 瑞祥工程行｜專業Epoxy地坪、FRP耐酸鹼地坪、防水工程｜全台施工</title>
 <meta property="og:site_name" content="瑞祥工程行｜專業Epoxy地坪、FRP耐酸鹼地坪、防水工程｜全台施工" />
@@ -26,9 +26,8 @@
 <link href='../cdn2.editmysite.com/fonts/Montserrat/fontc81e.css?2' rel='stylesheet' type='text/css' />
 
 <style type='text/css'>
-/* 強制徹底隱藏 Weebly 所有廣告標籤與 footer 橫幅 */
+/* 1. 僅精準隱藏 Weebly 廣告標籤，不影響版面結構 */
 #weebly-footer-signup-container-v3,
-.footer-wrap,
 .weebly-footer-signup-container,
 .signup-container-header,
 #signup-link-href,
@@ -41,25 +40,37 @@ a[href*="weebly.com/signup"] {
     pointer-events: none !important;
 }
 
-/* 修復頂部選單 (分頁) 確保正常顯示 */
-.unite-header .desktop-nav {
+/* 2. 強制修復並顯示頂部分頁導覽列 */
+.unite-header .desktop-nav,
+.unite-header .nav,
+.desktop-nav {
     display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
 }
+
 .wsite-menu-default {
     display: flex !important;
     list-style: none !important;
     margin: 0 !important;
     padding: 0 !important;
+    visibility: visible !important;
 }
+
 .wsite-menu-default li {
+    display: inline-block !important;
     margin-left: 25px !important;
 }
+
 .wsite-menu-default a.wsite-menu-item {
+    display: inline-block !important;
     font-size: 16px !important;
     font-weight: bold !important;
     color: #333333 !important;
     text-decoration: none !important;
+    visibility: visible !important;
 }
+
 .wsite-menu-default li#active a.wsite-menu-item,
 .wsite-menu-default a.wsite-menu-item:hover {
     color: #0F4C81 !important;
