@@ -1,0 +1,19 @@
+/* 手機版三槓選單核心樣式 */
+.wsite-mobile-menu-button {
+    display: block;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 24px;
+}
+.wsite-menu-default {
+    display: block;
+}
+@media setup, screen and (max-width: 767px) {
+    #nav, .wsite-menu-default {
+        display: none;
+    }
+    body.wsite-menu-mobile-open #nav,
+    body.wsite-menu-mobile-open .wsite-menu-default {
+        display: block !important;
+    }
+}
