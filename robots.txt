@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://ruixiangfloor.github.io/ruixiangfloor.com/sitemap.xml
+Sitemap: https://ruixiangfloor.github.io/sitemap.xml
